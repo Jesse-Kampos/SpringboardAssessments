@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel ="stylesheet" href="memeGen.css">
+</head>
+<body>
+    <div class = 'memeGen'>
+        <h1>Meme Generator - The Next Big Meme!</h1>
+        <h4>Fill out this form to generate your memes!</h4>
+
+        <label>Image URL</label>
+        <input id='imageInput' type="text" placeholder="what image do you want to memeify?">
+        
+        <label>Text on Top</label>
+        <input id='topText' type="text" 
+        placeholder="what text would you like on the top of the image?">
+        
+        <label>Text on Bottom</label>
+        <input id='bottomText' type="text" 
+        placeholder="what text would you like at the bottom of the image?">
+
+        <button type="submit" id="generateBtn">Add your Meme!</button>
+
+
+    </div>
+    
+    <div id="imagespace">
+
+    </div>
+    
+    
+    <script src="memeGen.js"></script>
+</body>
+</html>
